@@ -2,13 +2,19 @@
 Credit: http://www.templatemo.com
 */
 
+
+/* далее для всех остальных браузеров */
+
+
+  
+
+
 body {
 	margin: 0;
 	padding: 0;
 	color: #333;
-	font-family:    Monitorica,fantasy;
-	font-size: 22px;
-	
+	font-family: Monitorica; 
+	font-size: 21px;
 	line-height: 1.4em; 
 	background-color: #f7f7f7;
 	background-repeat: repeat-x;
@@ -228,10 +234,11 @@ input[type="radio"]:checked + label span {
 }
 
 .kategorii {
-
+ 
  font-size: 21px;
    border-bottom: 1px dotted gray;
    padding: 3px;
+  
 
 }
 .kategorii > .page {
@@ -411,11 +418,11 @@ margin: 0 120px 0 0;
 	color: #004560;
 	margin: 14px 8px 14px;
 	text-align: left;
-	font:normal 28px/15px   Archive,fantasy sans-serif;
+	font:normal 28px/15px   Monitorica;
 	
 }
 
-.add_to_cart {font:normal    Archive,fantasy;  display: inline-block; padding: 10px 35px; font-size: 21px; font-weight: bold; color: #59b7db; background: #004560 }
+.add_to_cart {  display: inline-block; padding: 10px 38px; font-size: 20px; font-weight: bold; color: #59b7db; background: #004560 }
 .add_to_cart:hover {  background: #ae0704; color: white;text-decoration: none }
 
 #newsletter {
